@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>خريطة الجمهورية العربية السورية</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    .map-container {
+      max-width: 800px;
+      margin: 20px auto;
+      position: relative;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    h1 {
+      margin: 20px 0;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>خريطة الجمهورية العربية السورية</h1>
+  <div class="map-container">
+    <!-- استخدم صورة من الإنترنت -->
+    <img src="Syria.png" alt="خريطة الجمهورية العربية السورية" usemap="#syrianmap">
+    <map name="syrianmap">
+      <!-- حلب: إحداثيات مثال (مستطيل) -->
+      <area shape="rect" coords="50,100,150,200" href="halab.html" alt="حلب">
+      <!-- دمشق: إحداثيات مثال (مستطيل) -->
+      <area shape="rect" coords="200,250,300,350" href="damascus.html" alt="دمشق">
+      <!-- حمص: إحداثيات مثال (مستطيل) -->
+      <area shape="rect" coords="350,150,450,250" href="homs.html" alt="حمص">
+      <!-- اللاذقية: إحداثيات مثال (مستطيل) -->
+      <area shape="rect" coords="500,200,600,300" href="latakia.html" alt="اللاذقية">
+    </map>
+  </div>
+</body>
+</html>
